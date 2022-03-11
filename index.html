@@ -1,0 +1,1124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Smart Schooling System</title>
+</head>
+
+<body>
+
+    <!-- ********************OUR NAVBAR***************** -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="logo.html"><img class="logo" src="./img/logo.png" alt="404" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#admission">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./frontFiles/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./frontFiles/staff.html">Our Staff</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ********************HOME SECTION******************** -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/homepic5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/homepic2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/homepic3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <!-- <div class="carousel-item">
+                <img src="./img/homepic1.jpg" class="d-block w-100" alt="...">
+            </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Our Teacher Container -->
+    <div class="container my-4 courseStyle">
+        <h1>Our Teacher</h1>
+        <h2>KNOW ABOUT OUR TEAM</h2>
+        <hr>
+        <div class="row">
+            <!-- ENGLISH TEACHER CARD 1 -->
+            <div class="card " style="width: 18rem; color: white;">
+                <img src="./img/t1.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-primary">
+                    <h5 class="card-title courseStyleH5">English Tutor</h5>
+                    <p class="card-text courseStylePara">I am Proficient English Tutor and a PHD scholar.
+                        And I am working as lecturer on 17th grade in University.
+                        I had fours years teaching experience in Group of Colleges. That includes campus and online.</p>
+                </div>
+                <ul class="list-group list-group-flush bg-primary">
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;"><b>Name:</b>
+                        Jesica Loran</li>
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;"><b>Address:</b>
+                        99999,
+                        Bratislava, Slovakia</li>
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;">
+                        <b>Nationality:</b> Slovakia
+                    </li>
+                </ul>
+                <div class="card-body bg-primary">
+                    <button class="btn btn-outline-light courseStyleH5" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#jesica" aria-controls="offcanvasWithBothOptions">Read
+                        more...</button>
+                </div>
+            </div>
+
+            <!-- OUR TEACHER INFORMATION HERE  -->
+            <!-- Jesica Loran -->
+            <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="jesica"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <!-- Closing Button -->
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
+                        style="position: absolute;
+        left: 313px;
+        margin-top: 10px;"></button>
+                </div>
+                <!-- image for Jesica Loran -->
+                <img src="./img/t1.jpg" class="card-img-top my-7" alt="..."
+                    style="border-radius: 530px; width: 130px; display: block; margin: auto;">
+                <br><br>
+                <!-- Header Headings -->
+                <h3 class="text-center courseStyleH5">Jesica Loran</h3>
+                <h5 class="text-center courseStyleH5"><u>English Tutor</u> </h5>
+                <hr>
+                <!-- Jesica Loran Information -->
+                <div class="offcanvas-body">
+                    <h3 class="courseStyleH5">Summary</h3>
+                    <p class="courseStylePara">Obtain a challenging English Tutor position with opportunity for growth,
+                        personal enhancement and
+                        to
+                        seek a position that offers increasing responsibility as well as an exciting career path. </p>
+                    <br>
+                    <!-- EXPERIENCE NO 1: -->
+                    <h3 class="courseStyleH5">Work Experience</h3>
+                    <h4 class="courseStyleH5">10/2018 - present</h4>
+
+                    <br>
+                    <h5 class="courseStyleH5"><u>Journalist, Zero2Hero, Bratislava, Slovaki</u></h5>
+                    <ul>
+                        <li class="courseStylePara">Conducting interviews</li>
+                        <li class="courseStylePara">Text transcription</li>
+                        <li class="courseStylePara">Writing and editing produced media for a website</li>
+                    </ul>
+
+                    <!-- EXPERIENCE NO 2: -->
+                    <h4 class="courseStyleH5">02/2018 - 08/2018</h4>
+
+                    <br>
+                    <h5 class="courseStyleH5"><u>English Tutor, SKYPERS, Piešťany, Slovakia</u></h5>
+                    <ul>
+                        <li class="courseStylePara">Teaching proper grammar structures</li>
+                        <li class="courseStylePara">Expanding student's vocabulary</li>
+                        <li class="courseStylePara">Preparing lesson plans</li>
+                        <li class="courseStylePara">Experience teaching students of various age groups</li>
+                    </ul>
+
+                    <!-- EXPERIENCE NO 3: -->
+                    <h4 class="courseStyleH5">01/2018 - 08/2018</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>Community Manager, BIOTRON FOUNDATION, Bratislava, Slovakia</u></h5>
+                    <ul>
+                        <li class="courseStylePara">Managing social media and community communiction</li>
+                        <li class="courseStylePara">Copywriting and content creation (blog posts, social media updates,
+                            PR)</li>
+                        <li class="courseStylePara">Because of the nature of the company, all communication and content
+                            was exclusively in
+                            english
+                        </li>
+                    </ul>
+
+                    <!-- Education of Jesica Loran -->
+                    <!-- Education 1: -->
+                    <h3 class="courseStyleH5">Education</h3>
+                    <h4 class="courseStyleH5">09/2013 - 07/2018</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>English, Bilingual Grammar School of J.B. Magin, Vrbové, Slovakia</u>
+                    </h5>
+                    <ul>
+                        <li class="courseStylePara">In-depth study of English in various fields</li>
+                        <li class="courseStylePara">Graduated: English (C1), Russian (B1), Law & Philosophy</li>
+                    </ul>
+
+                    <!-- Education 2: -->
+                    <h4 class="courseStyleH5">09/2018 - present</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>International Relations, University of Economics, Bratislava, Slovakia
+                        </u></h5>
+                    <ul>
+                        <li class="courseStylePara">Understanding of different economic situations</li>
+                        <li class="courseStylePara">Navigating and comprehending Slovakian law</li>
+                        <li class="courseStylePara">The basics of diplomacy and proper behaviour by the diplomatic codex
+                        </li>
+                        <li class="courseStylePara">Business English & Business Russian</li>
+                    </ul>
+
+                    <!-- Contact for Jesica Loran -->
+                    <h3 class="courseStyleH5">Contact</h3>
+                    <ul>
+                        <li class="courseStylePara">Address: 99999, Bratislava, Slovakia</li>
+                        <li class="courseStylePara">Nationality: Slovakia</li>
+                        <li class="courseStylePara">Date of birth: 1999-19-09</li>
+                        <li class="courseStylePara">Phone number: 999-999-999</li>
+                        <li class="courseStylePara">Email address:hello@kickresume.com</li>
+                        <li class="courseStylePara">Website:www.kickresume.com</li>
+                    </ul>
+
+                    <!--Jesica Loran Skill 1-->
+                    <h3 class="courseStyleH5">Skills</h3>
+                    <h5 class="courseStyleH5"><u>Languages</u></h5>
+                    <ul>
+                        <li class="courseStylePara">English</li>
+                        <li class="courseStylePara">Russian</li>
+                    </ul>
+
+                    <!--Jesica Loran Skill 2-->
+                    <h3 class="courseStyleH5">Writing</h3>
+                    <ul>
+                        <li class="courseStylePara">Copywriting</li>
+                        <li class="courseStylePara">Proof-reading</li>
+                        <li class="courseStylePara">Text translations</li>
+                    </ul>
+
+                    <!--Jesica Loran Skill 3-->
+                    <h3 class="courseStyleH5">PR & Community</h3>
+                    <ul>
+                        <li class="courseStylePara">PR</li>
+                        <li class="courseStylePara">Social Media Content Management</li>
+                    </ul>
+
+                    <!--Jesica Loran Strengths-->
+                    <h3 class="courseStyleH5">Strengths</h3>
+                    <ul>
+                        <li class="courseStylePara">Patience</li>
+                        <li class="courseStylePara"> Energetic </li>
+                        <li class="courseStylePara"> Organizing </li>
+                        <li class="courseStylePara"> Motivating </li>
+                        <li class="courseStylePara"> Listening </li>
+                    </ul>
+
+                    <!--Jesica Loran Hobbies-->
+                    <h3 class="courseStyleH5">Hobbies</h3>
+                    <ul>
+                        <li class="courseStylePara">Reading</li>
+                        <li class="courseStylePara"> Planning</li>
+                        <li class="courseStylePara"> Writing</li>
+                        <li class="courseStylePara"> Editing</li>
+                        <li class="courseStylePara"> Enjoying drink</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- PHYSICS TEACHER CARD 2 -->
+            <div class="card " style="width: 18rem; color: white;">
+                <img src="./img/t2.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-primary">
+                    <h5 class="card-title courseStyleH5">Physics Teacher</h5>
+                    <p class="card-text courseStylePara">I'll describe myself as a person with attributes that I can
+                        achieve anything I
+                        work for. As an instructor my first priority is to built this attitude in student and second is
+                        to dive into the core of subject.</p>
+                </div>
+                <ul class="list-group list-group-flush bg-primary">
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;"><b>Name:</b> Susan
+                        Roph</li>
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;"><b>Address:</b>
+                        1737 Marshville
+                        Road, Alabama.</li>
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;">
+                        <b>Nationality:</b> Slovakia
+                    </li>
+                </ul>
+                <div class="card-body bg-primary">
+                    <button class="btn btn-outline-light courseStyleH5" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#susan" aria-controls="offcanvasWithBothOptions">Read
+                        more...</button>
+                </div>
+            </div>
+
+            <!-- OUR TEACHER INFORMATION HERE  -->
+            <!-- Susan Roph -->
+            <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="susan"
+                aria-labelledby="offcanvasWithBothOptions">
+                <!-- Closing Button -->
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
+                        style="position: absolute;
+        left: 313px;
+        margin-top: 10px;"></button>
+                </div>
+                <!-- image for SUSAN ROPH -->
+                <img src="./img/t2.jpg" class="card-img-top my-7" alt="..."
+                    style="border-radius: 530px; width: 130px; display: block; margin: auto;">
+                <br><br>
+                <!-- Header Headings -->
+                <h3 class="text-center courseStyleH5">Susan Roph</h3>
+                <h5 class="text-center courseStyleH5"><u>Physics Teacher</u> </h5>
+                <hr>
+                <!-- SUSAN ROPHInformation -->
+                <div class="offcanvas-body">
+                    <h3 class="courseStyleH5">Summary</h3>
+                    <p class="courseStylePara">To utilize my varied background and experience in educational technology
+                        and curricular
+                        instruction to support colleagues and students with leveraging technology in the education
+                        environment while facilitating student growth as 21st century learners.</p>
+                    <br>
+                    <!-- EXPERIENCE NO 1: -->
+                    <h3 class="courseStyleH5">Work Experience</h3>
+                    <h3 class="courseStyleH5">Physics Tutor</h3>
+                    <br>
+                    <h5 class="courseStyleH5"><u>ABC Corporation - ­ February 2011 – May 2011</u></h5>
+                    <ul>
+                        <li class="courseStylePara">Tutored undergraduate students in Mechanics, Electricity/Magnetism,
+                            and Thermodynamics.</li>
+                        <li class="courseStylePara">Assisted students in their critical thinking and problem-solving
+                            skills</li>
+                        <li class="courseStylePara">Managed to trace the projectiles path through different numerical
+                            solutions Euler,
+                            EulerCromer, and midpoint method.</li>
+                        <li class="courseStylePara">Tutored physics and mathematics.</li>
+                        <li class="courseStylePara">Helped students understand physics more intuitively by guiding them
+                            through problems with
+                            pictures and leading questions.</li>
+                        <li class="courseStylePara">Communicated with students to fully understand their needs Kept
+                            confidential student
+                            information and represented the college professionally</li>
+                        <li class="courseStylePara">Helped students realize how basic physics governs all other
+                            sciences.</li>
+                    </ul>
+
+                    <!-- EXPERIENCE NO 2: -->
+                    <h3 class="courseStyleH5">Physics Tutor</h3>
+                    <br>
+                    <h5 class="courseStyleH5"><u>Delta Corporation ­ 2006 – 2011</u></h5>
+                    <ul>
+                        <li class="courseStylePara">Provide assistance to students in need of help with introductory
+                            Physics and Astronomy
+                            courses.
+                        </li>
+                        <li class="courseStylePara"> Review and reteach university level physics.</li>
+                        <li class="courseStylePara"> Skills Used A wide range of math and problem solving skills.</li>
+                        <li class="courseStylePara">Projects Numerical Simulation of the Bouncing Bomb A WWII British
+                            scientist thought to
+                            determine the critical angle of a projectile that would impact the waters surface and
+                            continue to ricochet after the initial impact.</li>
+                        <li class="courseStylePara">He later discovered that by adding back spin would increase the
+                            critical angle needed for
+                            the projectile to ricochet.</li>
+                        <li class="courseStylePara">This was my final project I decided to do for a computational class
+                            (PHYS240) in spring of
+                            2015.</li>
+                        <li class="courseStylePara">Magnetic Nano Wires Templates As part of a research team our goal
+                            was to create magnetic
+                            nano wires used to improve the capabilities of current electronic device.</li>
+                    </ul>
+
+
+                    <!-- Education of SUSAN ROPH -->
+                    <!-- Education 1: -->
+                    <h3 class="courseStyleH5">Education</h3>
+                    <h4 class="courseStyleH5">09/2013 - 07/2018</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>Certification in Physics - May 2010(Rutgers University )B.E. in E And
+                            M.E - May 2006(Stevens
+                            Institute Of Technology )
+                        </u></h5>
+                    <ul>
+                        <li class="courseStylePara">Bachelor of Science (B.S) in Zoology from XXX University, in the
+                            year 2013.
+                        </li>
+                        <li class="courseStylePara">Passed TET (Teacher Eligibility Test) in 2014
+                        </li>
+                    </ul>
+
+                    <!-- Contact for SUSAN ROPH -->
+                    <h3 class="courseStyleH5">Contact</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Address: : 1737 Marshville Road, Alabama.</li>
+                        <li class="courseStylePara">LinkedIn: linkedin.com/qwikresume</li>
+                        <li class="courseStylePara">Phone number: (123) 456 78 99</li>
+                        <li class="courseStylePara">Email address:info@qwikresume.com</li>
+                        <li class="courseStylePara">Website: www.qwikresume.com</li>
+                    </ul>
+
+                    <!--SUSAN ROPH Skill 1-->
+                    <h3 class="courseStyleH5">Skills</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Teaching Skills</li>
+                        <li class="courseStylePara">Monitoring Skills</li>
+                        <li class="courseStylePara">Communication Skills</li>
+                    </ul>
+
+                    <!--SUSAN ROPH Strengths-->
+                    <h3 class="courseStyleH5">Strengths</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Patience</li>
+                        <li class="courseStylePara"> Energetic </li>
+                        <li class="courseStylePara"> Organizing </li>
+                        <li class="courseStylePara"> Motivating </li>
+                        <li class="courseStylePara"> Listening </li>
+                    </ul>
+
+                    <!--SUSAN ROPHHobbies-->
+                    <h3 class="courseStyleH5">Hobbies</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Reading</li>
+                        <li class="courseStylePara"> Planning</li>
+                        <li class="courseStylePara"> Writing</li>
+                        <li class="courseStylePara"> Editing</li>
+                        <li class="courseStylePara"> Enjoying drink</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CHEMISTRY TEACHER CARD 3 -->
+            <div class="card " style="width: 18rem; color: white;">
+                <img src="./img/t3.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-primary">
+                    <h5 class="card-title courseStyleH5">Chemistry Teacher</h5>
+                    <p class="card-text courseStylePara">I am an ambitious person who has developed a mature and
+                        responsible approach
+                        towards teaching. As a presentable and dynamic Cambridge O &amp; A Level. I have contributed
+                        educational excellence among many students.</p>
+                </div>
+                <ul class="list-group list-group-flush bg-primary">
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;"><b>Name:</b>
+                        Delvin Ropht</li>
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;"><b>Address:</b>
+                        123 Fake Street
+                        | City, State, Zip Code</li>
+                    <li class="list-group-item bg-primary courseStyleH5" style="color: antiquewhite;">
+                        <b>Nationality:</b> Australia
+                    </li>
+                </ul>
+                <div class="card-body bg-primary">
+                    <a href="#" class="btn btn-outline-light courseStyleH5" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#delvin" aria-controls="offcanvasWithBothOptions">Read
+                        more...</a>
+                </div>
+            </div>
+            <!-- OUR TEACHER INFORMATION HERE  -->
+            <!-- Delvin Ropht -->
+            <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="delvin"
+                aria-labelledby="offcanvasWithBothOptions">
+                <!-- Closing Button -->
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
+                        style="position: absolute;
+        left: 313px;
+        margin-top: 10px;"></button>
+                </div>
+                <!-- image for Delvin Ropht -->
+                <img src="./img/t3.jpg" class="card-img-top my-7" alt="..."
+                    style="border-radius: 530px; width: 130px; display: block; margin: auto;">
+                <br><br>
+                <!-- Header Headings -->
+                <h3 class="text-center courseStyleH5">Delvin Ropht</h3>
+                <h5 class="text-center courseStyleH5"><u>Chemistry Teacher</u> </h5>
+                <hr>
+                <!-- Delvin Ropht Information -->
+                <div class="offcanvas-body">
+                    <h3 class="courseStyleH5">Summary</h3>
+                    <p class="courseStylePara">Experienced Chemistry Tutor provides individual and small group sessions
+                        for high school and
+                        undergraduate students. Acting as mentor and coach, integrates effective learning and study
+                        strategies to enhance academic progress. Guides students through creative processes that help
+                        them become better students and independent critical thinkers with skills that go beyond any
+                        specific course or subject.
+
+                    </p>
+                    <br>
+                    <!-- EXPERIENCE NO 1: -->
+                    <h3 class="courseStyleH5">Work Experience</h3>
+                    <h3 class="courseStyleH5">Chemistry Tutor</h3>
+                    <h4 class="courseStyleH5">Chemistry Tutor – March 2014 to Present</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>Winston Academy, Los Angeles, USA
+                        </u></h5>
+                    <ul>
+                        <li class="courseStylePara">Work with undergraduate students on essays, test papers and
+                            post-graduate programs</li>
+                        <li class="courseStylePara">Review assignments and conduct examinations to offer appropriate
+                            feedback.</li>
+                        <li class="courseStylePara">Meet with Dean of Science to discuss ways to improve curriculum.
+                        </li>
+                        <li class="courseStylePara">Developed action plans based on students and educators academic
+                            goals</li>
+                        <li class="courseStylePara">Work effectively with students with diverse learning needs and
+                            cultural backgrounds</li>
+                    </ul>
+
+                    <!-- EXPERIENCE NO 2: -->
+                    <h3 class="courseStyleH5">Chemistry Tutor</h3>
+                    <h4 class="courseStyleH5">Chemistry Tutor – March 2012 to Present</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>A-One, Sydney, Australia</u></h5>
+                    <ul>
+                        <li class="courseStylePara"> Meet with students 10th to 12th grade looking to improve their
+                            comprehension of Chemistry.
+                        </li>
+                        <li class="courseStylePara">Use Board of Education approved curriculum and materials to gauge
+                            and coach students to
+                            achieve academic goals. </li>
+                        <li class="courseStylePara">Perform small and safe chemical experiments to enhance learning
+                            experience with small
+                            groups. </li>
+                        <li class="courseStylePara">Work with students on homework assignments, coaching them in
+                            strategies for finding their
+                            own solutions. </li>
+                        <li class="courseStylePara">Helped students realize how basic Chemistry governs all other
+                            sciences. </li>
+                    </ul>
+
+
+                    <!-- Education of Delvin Ropht -->
+                    <!-- Education 1: -->
+                    <h3 class="courseStyleH5">Education</h3>
+                    <h4 class="courseStyleH5">09/2013 - 07/2018</h4>
+                    <br>
+                    <h5 class="courseStyleH5"><u>Single Subject Teaching Credential: Chemistry</u></h5>
+                    <ul>
+                        <li class="courseStylePara">Bachelors Of Science in Chemistry - May 2016(Bethany College -
+                            Bethany, WV )</li>
+                        <li class="courseStylePara">Passed American Association of Chemistry Teachers (AACT) in 2018
+                        </li>
+                    </ul>
+
+                    <!-- Contact for Delvin Ropht -->
+                    <h3 class="courseStyleH5">Contact</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Address: : 123 Fake Street | City, State, Zip Code</li>
+                        <li class="courseStylePara">Nationality: Australia</li>
+                        <li class="courseStylePara">LinkedIn: linkedin.com/qwikresume</li>
+                        <li class="courseStylePara">Phone number: (555)-555-5555 99</li>
+                        <li class="courseStylePara">Email address:info@qwikresume.com</li>
+                        <li class="courseStylePara">Website: www.qwikresume.com</li>
+                    </ul>
+
+                    <!--Delvin Ropht Skill 1-->
+                    <h3 class="courseStyleH5">Skills</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Teaching Skills</li>
+                        <li class="courseStylePara">Communication Skills</li>
+                        <li class="courseStylePara">Monitoring Skills</li>
+                    </ul>
+
+                    <!--Delvin Ropht Core Competencies-->
+                    <h3 class="courseStyleH5">Core Competencies</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Parent-teacher relations</li>
+                        <li class="courseStylePara"> Multimedia learning technologies </li>
+                        <li class="courseStylePara"> Educational services administration </li>
+                        <li class="courseStylePara"> Online learning </li>
+                        <li class="courseStylePara"> Interactive teaching/learning</li>
+                    </ul>
+
+                    <!--Delvin Ropht Hobbies-->
+                    <h3 class="courseStyleH5">Hobbies</h3>
+                    <br>
+                    <ul>
+                        <li class="courseStylePara">Reading</li>
+                        <li class="courseStylePara"> Planning</li>
+                        <li class="courseStylePara"> Writing</li>
+                        <li class="courseStylePara"> Editing</li>
+                        <li class="courseStylePara"> Enjoying drink</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Courses Container -->
+    <div class="container my-4 courseStyle">
+        <h1 id="courses">Advanced Courses</h1>
+        <h2>KNOW ABOUT OUR Courses</h2>
+        <hr>
+        <div class="content-center">
+            <br><br>
+            <br>
+            <img src="./img/coding.png" class="card-img-top" alt="..." style="width: 208px;
+    height: 211px;">
+            <br><br>
+            <br>
+            <div class="card-body" style="border: 3px solid deepskyblue; margin: auto; ">
+                <h5 class="card-title courseStyleH5">Design</h5>
+                <p class="card-text courseStylePara">The goal of this specialization is to equip learners with a set of
+                    transferable
+                    formal and conceptual tools for “making and communicating” in the field of graphic design.
+                    This
+                    core skill set will equip learners for formal studies in graphic design, and a starting
+                    point
+                    for further work in interface design, motion graphics, and editorial design.</p>
+            </div><br><br>
+            <br>
+            <img src="./img/designr.png" class="card-img-top" alt="..." style="width: 208px;
+    height: 211px;"><br><br>
+            <br>
+            <div class="card-body" style="border: 3px solid deepskyblue; margin: auto;">
+                <h5 class="card-title courseStyleH5">Coding</h5>
+                <p class="card-text courseStylePara">Everyone’s talking about coding, but where do you start? This path
+                    will
+                    give
+                    you an introduction to the world of code and basic concepts. By the end, you’ll know whether
+                    Data Science, Computer Science or Web Development is right for you.
+                </p>
+            </div>
+            <br><br>
+            <br>
+            <img src="./img/javascript.png" class="card-img-top" alt="..." style="width: 208px;
+    height: 211px;"><br><br>
+            <br>
+            <div class="card-body" style="border: 3px solid deepskyblue; margin: auto; ">
+                <h5 class="card-title courseStyleH5">JavaScript</h5>
+                <p class="card-text courseStylePara">The Complete JavaScript Course 2022: From Zero to Expert! The
+                    modern
+                    JavaScript
+                    course for everyone! Master JavaScript with projects, challenges and theory. Many courses in
+                    one!</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <a class="nav-link my-4" href="./frontFiles/courses.html" style="text-align: center;"> <button
+                class="btn btn-primary d-grid gap-2 col-6 mx-auto courseStyleH5">Courses</button></a>
+        <br><br>
+    </div>
+
+    <!-- ADMISSION PORTION -->
+    <div class="container my-4 stylish courseStyle" id="admission">
+        <h1>Admission</h1>
+        <h2>KNOW ABOUT OUR Admission</h2>
+        <hr>
+        <div class="container" style="text-align: center; margin-top: 60px; margin-bottom: 60px;">
+            <button class="btn btn-primary courseStyleH5" id="clickBtn1">
+                Level of Education
+            </button>
+            <button class="btn btn-primary courseStyleH5" id="clickBtn2">
+                Age Range
+            </button>
+            <button class="btn btn-primary courseStyleH5" id="clickBtn3">
+                Admission Criteria
+            </button>
+            <button class="btn btn-primary courseStyleH5" id="clickBtn4">
+                Admission Journey
+            </button>
+            <button class="btn btn-primary courseStyleH5" id="clickBtn5">
+                Fee Details
+            </button>
+        </div>
+
+        <!-- Button for  Level Of Education Portion -->
+        <div id="LevelOfEducation">
+            <div class="card card-body">
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">PRESCHOOL</th>
+                            <th scope="col">JUNIOR SCHOOL</th>
+                            <th scope="col">PRIMARY SCHOOL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Playgroup</td>
+                            <td>Playgroup</td>
+                            <td>Playgroup</td>
+                        </tr>
+                        <tr>
+                            <td>Nursery</td>
+                            <td>Nursery</td>
+                            <td>Nursery</td>
+
+                        </tr>
+                        <tr>
+                            <td>Prep</td>
+                            <td>Prep</td>
+                            <td>Prep</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>Class I</td>
+                            <td>Class I</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>Class II</td>
+                            <td>Class II</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>Class III</td>
+                            <td>Class III</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Class IV</td>
+
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Class V</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">SECONDARY SCHOOL</th>
+                            <th scope="col">COMPREHENSIVE SCHOOL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class VI</td>
+                            <td>Playgroup</td>
+                        </tr>
+                        <tr>
+
+                            <td>Class VII</td>
+                            <td>Nursery</td>
+                        </tr>
+                        <tr>
+
+                            <td>Class VIII</td>
+                            <td>Prep</td>
+                        </tr>
+                        <tr>
+                            <td>Class IX</td>
+                            <td>Class I</td>
+                        </tr>
+                        <tr>
+
+                            <td>Class X</td>
+                            <td>Class II</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class III</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class IV</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class V</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class VI</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class VII</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class VIII</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class IX</td>
+                        </tr>
+                        <tr>
+
+                            <td>-</td>
+                            <td>Class X</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Button for  Age Range Portion -->
+        <div id="AgeRange" style="margin-top: 50px;">
+            <div class="card card-body text-center" style="display: flex;">
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">MIN AGE</th>
+                            <th scope="col">MAX AGE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Playgroup</td>
+                            <td>2+Years</td>
+                            <td>2+Years</td>
+                        </tr>
+                        <tr>
+                            <td>Nursery</td>
+                            <td>3 Years</td>
+                            <td>3 Years</td>
+                        </tr>
+                        <tr>
+                            <td>Prep</td>
+                            <td>4 Years</td>
+                            <td>5 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">MIN AGE</th>
+                            <th scope="col">MAX AGE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class I</td>
+                            <td>5 years</td>
+                            <td>6 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class II</td>
+                            <td>6 years</td>
+                            <td>7 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class III</td>
+                            <td>7 years</td>
+                            <td>8 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class IV</td>
+                            <td>8 years</td>
+                            <td>9 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class V</td>
+                            <td>9 years</td>
+                            <td>10 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">MIN AGE</th>
+                            <th scope="col">MAX AGE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class VI</td>
+                            <td>10 years</td>
+                            <td>11 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class VII</td>
+                            <td>11 years</td>
+                            <td>12 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class VIII</td>
+                            <td>12 years</td>
+                            <td>13 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">MIN AGE</th>
+                            <th scope="col">MAX AGE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class IX</td>
+                            <td>13 years</td>
+                            <td>14 years</td>
+                        </tr>
+                        <tr>
+                            <td>Class X</td>
+                            <td>14 years</td>
+                            <td>15 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Button for  Admission Criteria Portion -->
+        <div id="AdmissionCriteria" style="margin-top: 50px;">
+            <div class="card card-body text-center">
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">ADMISSION TEST/ INTERVIEW</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Playgroup</td>
+                            <td>Interview</td>
+                        </tr>
+                        <tr>
+                            <td>Nursery</td>
+                            <td>Interview</td>
+                        </tr>
+                        <tr>
+                            <td>Prep</td>
+                            <td>Written Test + Interview</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">ADMISSION TEST/ INTERVIEW</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class I</td>
+                            <td>English, Urdu & Mathematics</td>
+                        </tr>
+                        <tr>
+                            <td>Class II</td>
+                            <td>English, Urdu & Mathematics</td>
+                        </tr>
+                        <tr>
+                            <td>Class III</td>
+                            <td>English, Urdu & Mathematics/td>
+                        </tr>
+                        <tr>
+                            <td>Class IV</td>
+                            <td>English, Urdu & Mathematics</td>
+                        </tr>
+                        <tr>
+                            <td>Class V</td>
+                            <td>English, Urdu & Mathematics</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">ADMISSION TEST/ INTERVIEW</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class VI</td>
+                            <td>English, Urdu, Mathematics & Science</td>
+                        </tr>
+                        <tr>
+                            <td>Class VII</td>
+                            <td>English, Urdu, Mathematics & Science</td>
+                        </tr>
+                        <tr>
+                            <td>Class VIII</td>
+                            <td>English, Urdu, Mathematics & Science</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">CLASS LEVEL</th>
+                            <th scope="col">ADMISSION TEST/ INTERVIEW</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class IX</td>
+                            <td>Science Group/Humanities Group, English, Urdu, Mathematics & Science</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Button for  Admission Journey Portion -->
+        <div id="AdmissionJourney" style="margin-top: 50px;">
+            <div class="card card-body text-center">
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">PRE SCHOOL</th>
+                            <th scope="col">PRIMARY</th>
+                            <th scope="col">SECONDARY</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>First Registration</td>
+                            <td>First Registration</td>
+                            <td>First Registration</td>
+                        </tr>
+                        <tr>
+                            <td>Admission Registration Form</td>
+                            <td>Admission Registration Form</td>
+                            <td>Admission Registration Form</td>
+
+                        </tr>
+                        <tr>
+                            <td>Interview</td>
+                            <td>Interview</td>
+                            <td>Interview</td>
+                        </tr>
+                        <tr>
+                            <td>Admission Form</td>
+                            <td>Admission Form</td>
+                            <td>Admission Form</td>
+                        </tr>
+                        <tr>
+                            <td>Fee Challan</td>
+                            <td>Fee Challan</td>
+                            <td>Fee Challan</td>
+                        </tr>
+                        <tr>
+                            <td>Admission Order</td>
+                            <td>Admission Order</td>
+                            <td>Admission Order</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Button for  Fee Details  Portion -->
+        <div id="FeeDetails" style="margin-top: 50px;">
+            <div class="card card-body text-center">
+                <table class="table table-bordered border-dark table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">DESCRIPTION</th>
+                            <th scope="col">Fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monthly Tuition Fee (Full Fee Category)</td>
+                            <td>3700/-</td>
+                        </tr>
+                        <tr>
+                            <td>Monthly Tuition Fee (Sibling Fee Category)</td>
+                            <td>2800/-</td>
+                        </tr>
+                        <tr>
+                            <td>Admission Fee (At the time of admission for all student categories)</td>
+                            <td>2500/-</td>
+                        </tr>
+                        <tr>
+                            <td>Security Deposit (Refundable)</td>
+                            <td>2500/-</td>
+                        </tr>
+
+                        <tr>
+                            <td>Annual Subscription Fee (Per Academic year for all student categories)</td>
+                            <td>2500/-</td>
+                        </tr>
+                        <tr>
+                            <td>Admission Processing Fee (At the time of admission for all student categories)</td>
+                            <td>200/-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Footer Section -->
+    <ul class="nav justify-content-center navbar-dark bg-dark text-light px-3 py-3">
+        <p>© 1995-2021 The Smart Schooling System Inc. All rights reserved.</p>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
+
+<!-- https://alliedschools.edu.pk/admissions/#fee-structure -->

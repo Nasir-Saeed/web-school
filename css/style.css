@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Denk+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Heebo:wght@700&family=Lato:wght@900&family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Comic+Neue&display=swap');
+
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 37px;
+    border-radius: 200%;
+    padding-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.courseStyle  h1 {
+    font-family: 'Denk One', sans-serif;
+    text-align: center;
+}
+
+.courseStyle h2 {
+    font-family: 'Denk One', sans-serif;
+    color: #0d6efd;
+    text-align: center;
+}
+
+.courseStyleH5{
+    font-family: 'Capriola', sans-serif;
+}
+
+.courseStylePara{
+    font-family: 'Comic Neue', cursive;
+}
+
+.row {
+    justify-content: center;
+    margin: 10px;
+    -bs-gutter-x: 0;
+}
+
+.card {
+    margin: 30px;
+    padding: 0;
+}
+
+.card h5 {
+
+    /* font-family: 'Fira Sans Condensed', sans-serif; */
+    /* font-family: 'Heebo', sans-serif; */
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+.stylish button {
+    margin: 4px 4px;
+}
+
+.content-center{
+    text-align: center;
+}
