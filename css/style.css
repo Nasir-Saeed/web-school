@@ -9,6 +9,13 @@
     padding: 0;
 }
 
+.imgSet img {
+    height: 29px;
+    width: 29px;
+    margin: 2px 6px;
+}
+
+
 .logo {
     height: 37px;
     border-radius: 200%;
