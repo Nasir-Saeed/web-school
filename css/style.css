@@ -46,6 +46,7 @@
 .card {
     margin: 30px;
     padding: 0;
+    border: 0px;
 }
 
 .card h5 {
